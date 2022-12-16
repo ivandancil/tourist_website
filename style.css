@@ -456,15 +456,17 @@ html{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
-.social-icons i
-{
+.social-icons a{
+    text-decoration: none;
     font-size: 40px;
-    width: 40px;
-    transition: 0.5s;
+    margin-right: 10px;
+    color: rgb(74, 71, 71);
+    display: inline-block;
+    transition: transform 0.5s;
 }
-.social-icons a:hover img
-{
-  transform:translateY(-10px)
+.social-icons a:hover{
+    color: #af19c3;
+    transform: translateY(-5px);
 }
 /*---------------footer-----------------*/
 #footer 
@@ -504,6 +506,7 @@ html{
     border: none;
     border-radius: 0;
     margin-top: 30px;
+    margin-left: 20%;
     
 }
 hr
@@ -515,6 +518,14 @@ hr
     margin-bottom: 0;
     padding-bottom: 20px ;
     text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+#msg{
+    color: white;
+    margin-top: -70px;
+    display: block;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 400;
 }
